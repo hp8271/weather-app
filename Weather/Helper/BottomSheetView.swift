@@ -17,7 +17,7 @@ struct BottomSheetView<Content: View>: View {
     let content: () -> Content
 
     @State private var offset: CGFloat = MobileBounds.height
-@State private var contentHeight: CGFloat = 0
+    @State private var contentHeight: CGFloat = 0
 
     init(
         isPresented: Binding<Bool>,

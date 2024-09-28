@@ -10,7 +10,7 @@ import SwiftUI
 struct ForecastBottomScreen: View {
 
     @State private var isSheetPresented: Bool = false
-
+    @State private var kkk : MobileBounds?
     var body: some View {
         ZStack {
             VStack {

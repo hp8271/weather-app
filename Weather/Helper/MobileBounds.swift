@@ -7,7 +7,7 @@
 
 import UIKit
 
-struct MobileBounds {
+final class MobileBounds {
     static let height = UIScreen.main.bounds.height
     static let width = UIScreen.main.bounds.width
 }
